@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact SAHL - Let's Work Together</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">SAHL</a>
+        <ul class="nav__links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#mission">Mission</a></li>
+          <li><a href="index.html#culture">Approach</a></li>
+          <li><a href="contact.html" class="nav__cta">Work With Us</a></li>
+        </ul>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav__mobile" id="mobileMenu">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#mission">Mission</a></li>
+          <li><a href="index.html#culture">Approach</a></li>
+          <li><a href="contact.html">Work With Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-page section">
+      <div class="container">
+        <div class="contact-page__header reveal">
+          <span class="label">Get In Touch</span>
+          <h1 class="contact-page__heading">
+            Let's Build Your<br /><em>Influence Together.</em>
+          </h1>
+          <p class="contact-page__subtext">
+            Tell us about your vision, goals, and the impact you want to create.
+            We'll review your request and be in touch within 24 hours.
+          </p>
+        </div>
+
+        <div class="contact-page__content">
+          <div class="contact-page__form-wrap reveal">
+            <form class="contact-form" id="contact-form">
+              <div class="form__grid">
+                <div class="form__group">
+                  <label for="name" class="form__label">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form__input form__input--light"
+                    required
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="form__group">
+                  <label for="email" class="form__label form__label--light"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form__input form__input--light"
+                    required
+                    placeholder="your@email.com"
+                  />
+                </div>
+                <div class="form__group">
+                  <label for="phone" class="form__label form__label--light"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form__input form__input--light"
+                    placeholder="+1 (555) 000-0000"
+                  />
+                </div>
+                <div class="form__group">
+                  <label for="service" class="form__label form__label--light"
+                    >Service Interest</label
+                  >
+                  <select
+                    id="service"
+                    name="service"
+                    class="form__input form__input--light"
+                  >
+                    <option value="">Select a service</option>
+                    <option value="personal-branding">Personal Branding</option>
+                    <option value="storytelling">Storytelling</option>
+                    <option value="public-speaking">Public Speaking</option>
+                    <option value="content-creation">Content Creation</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form__group form__group--full">
+                <label for="message" class="form__label form__label--light"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form__textarea form__input--light"
+                  rows="6"
+                  required
+                  placeholder="Tell us about your goals and vision..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--gold btn--lg">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-page__info reveal reveal--right">
+            <div class="contact-info">
+              <h3>Direct Contact</h3>
+              <p>
+                <strong>Email:</strong><br />
+                <a href="mailto:hello@sahlstudio.com">hello@sahlstudio.com</a>
+              </p>
+              <p>
+                <strong>Response Time:</strong><br />
+                We typically respond within 24 hours
+              </p>
+            </div>
+
+            <div class="contact-info">
+              <h3>What To Include</h3>
+              <ul class="contact-checklist">
+                <li>Your current role & industry</li>
+                <li>Your primary goals</li>
+                <li>Timeline for your project</li>
+                <li>Target audience</li>
+                <li>Any specific challenges</li>
+              </ul>
+            </div>
+
+            <div class="contact-info">
+              <h3>Next Steps</h3>
+              <ol class="contact-checklist">
+                <li>Submit your inquiry</li>
+                <li>Initial consultation call</li>
+                <li>Custom proposal</li>
+                <li>Let's build your brand</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__brand">
+            <span class="nav__logo">SAHL</span>
+            <p>Growth. Visibility. Influence.</p>
+          </div>
+          <div class="footer__links">
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#mission">Mission</a>
+            <a href="index.html#culture">Approach</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>© 2025 SAHL Studio. All rights reserved.</span>
+          <span>hello@sahlstudio.com</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
