@@ -99,8 +99,7 @@
       message: formData.get("message"),
       _replyto: formData.get("email"),
       _subject: "Thanks for contacting SAHL hq",
-      _autoresponse:
-        "Thanks for reaching out to SAHL hq! We've received your inquiry and will be in touch within 24 hours. Reply to this email if you'd like to add more details.",
+      _autoresponse: "Thanks for reaching out to SAHL hq! We've received your inquiry and will be in touch within 24 hours. Reply to this email if you'd like to add more details.",
       timestamp: new Date().toLocaleString(),
     };
 
