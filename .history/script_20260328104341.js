@@ -91,10 +91,6 @@
     successPanel.hidden = true;
   }
 
-  if (form) {
-    form.style.display = "";
-  }
-
   if (!form) return;
 
   form.addEventListener("submit", async (e) => {
