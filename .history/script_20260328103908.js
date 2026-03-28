@@ -94,12 +94,9 @@
     const nameValue = formData.get("name")?.toString().trim() || "there";
     const emailValue = formData.get("email")?.toString().trim() || "your email";
     const phoneValue = formData.get("phone")?.toString().trim() || "";
-    const messageValue =
-      formData.get("message")?.toString().trim() || "No message provided.";
+    const messageValue = formData.get("message")?.toString().trim() || "No message provided.";
     const serviceSelect = form.querySelector("#service");
-    const serviceValue =
-      serviceSelect?.selectedOptions?.[0]?.textContent?.trim() ||
-      "General inquiry";
+    const serviceValue = serviceSelect?.selectedOptions?.[0]?.textContent?.trim() || "General inquiry";
 
     formData.set("_replyto", emailValue);
     formData.set("timestamp", new Date().toLocaleString());
