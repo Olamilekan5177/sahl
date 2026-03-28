@@ -115,16 +115,10 @@
         const successService = document.getElementById("success-service");
         const successMessage = document.getElementById("success-message");
 
-        if (successName)
-          successName.textContent = formData.get("name") || "there";
-        if (successEmail)
-          successEmail.textContent = formData.get("email") || "your email";
-        if (successService)
-          successService.textContent =
-            formData.get("service") || "General inquiry";
-        if (successMessage)
-          successMessage.textContent =
-            formData.get("message") || "No message provided.";
+        if (successName) successName.textContent = formData.get("name") || "there";
+        if (successEmail) successEmail.textContent = formData.get("email") || "your email";
+        if (successService) successService.textContent = formData.get("service") || "General inquiry";
+        if (successMessage) successMessage.textContent = formData.get("message") || "No message provided.";
 
         if (successPanel) {
           successPanel.classList.remove("hidden");
